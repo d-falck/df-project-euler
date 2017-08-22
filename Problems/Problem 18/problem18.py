@@ -18,3 +18,5 @@ for i, row in enumerate(triangle):
                 maxsum[i][j] = int(entry) + maxsum[i-1][j-1]
             else:
                 maxsum[i][j] = int(entry) + maxsum[i-1][j]
+
+print(max(maxsum[len(triangle)-1]))
