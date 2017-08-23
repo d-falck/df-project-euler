@@ -15,13 +15,12 @@ def digitsOf(N): # Separates N into a list of its digits
 totalSum = 0
 i = 1
 while True:
-    if i % 10000 == 0:
-        print(i)
     digits = digitsOf(i)
     powerSum = sum(j**5 for j in digits)
-    if i == powerSum:
+    if i == powerSum and i != 1:
+        print(i)
         totalSum += i
-    if i == 10000000:
+    if i == 1000000:
         break
     i += 1
 
