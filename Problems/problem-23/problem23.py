@@ -25,11 +25,8 @@ for i in range(1,checkBelow+1):
 
 # We now have all the abundant numbers under checkBelow in the list abundants
 
-possibleSums = [0]
-
-
+possibleSums = list(set([i + j for i in abundants for j in abundants if i + j <= checkBelow]))
+impossibleSums = [i for i in range(checkBelow+1) if i not in possibleSums]
 # Our final result:
-# print("Possible sums:")
-# print(possibleSums)
-# print("Impossible sums")
-# print(impossibleSums)
+
+print(sum(impossibleSums))
