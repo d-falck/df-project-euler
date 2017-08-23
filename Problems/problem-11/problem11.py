@@ -27,10 +27,17 @@ for i in range(height):
         if product > maxProduct:
             maxProduct = product
 
-# Diagonal adjacents
+# Diagonal tl-br adjacents
 for i in range(height - adjacents + 1):
     for j in range(width - adjacents + 1):
         product = prod([grid[i+k][j+k] for k in range(adjacents)])
+        if product > maxProduct:
+            maxProduct = product
+
+# Diagonal tr-bl adjacents
+for i in range(adjacents - 1,height):
+    for j in range(width - adjacents + 1):
+        product = prod([grid[i-k][j+k] for k in range(adjacents)])
         if product > maxProduct:
             maxProduct = product
 
