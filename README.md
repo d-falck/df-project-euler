@@ -10,7 +10,7 @@ They're all coded in Python 3.6. Information about my setup as well as full expl
 ## To do
 
 ___
-- *Done in problem 32* Simplify `digitsOf()` function to use `str(N)` and then string indexing rather than modular arithmetic and lists.
+- [x] *Done in problem 32* Simplify `digitsOf()` function to use `str(N)` and then string indexing rather than modular arithmetic and lists.
 
  *Currently looks like:*
 
