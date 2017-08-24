@@ -5,7 +5,7 @@ Hi! These are all my solutions to the [Project Euler](https://projecteuler.net/a
 
 *Please don't look at the solution to a problem until you've at least solved it for yourself once!*
 
-They're all coded in Python 3.6. Information about my setup as well as full explanations and writeups are available [at my website](http://dfalck.xyz).
+They're all coded in Python 3.6. Information about my setup as well as full explanations and writeups are available [at my website](http://dfalck.xyz/project-euler).
 
 ## To do
 
