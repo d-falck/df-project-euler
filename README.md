@@ -1,8 +1,7 @@
 # To do
 
 ___
-- testPs
-- Simplify `digitsOf()` function to use `str(N)` and then string indexing rather than modular arithmetic and lists.
+- *Done in problem 32* Simplify `digitsOf()` function to use `str(N)` and then string indexing rather than modular arithmetic and lists.
 
  *Currently looks like:*
 
