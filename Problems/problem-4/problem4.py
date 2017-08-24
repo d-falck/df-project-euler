@@ -1,6 +1,6 @@
 largest_pallen = 0
 for i in range(100,1000):
-    for j in range(100,1000):
+    for j in range(i,1000):
         prod = i*j
         digits = [0,0,0,0,0,0] # Separating the product out into its digits
         digits[5] = int(prod % 10)
@@ -18,4 +18,3 @@ for i in range(100,1000):
                 if prod > largest_pallen:
                     largest_pallen = prod
 print(largest_pallen)
-print(digits)
